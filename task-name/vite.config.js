@@ -3,6 +3,7 @@ import {sync} from "glob";
 
 export default defineConfig({
   root: "./src",
+  base: "/test-gh-pages/task-name",
   build: {
     sourcemap: true,
     emptyOutDir: true,
