@@ -1,18 +1,19 @@
 {
-  "name": "task-name",
+  "name": "christmas-shop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://serezha-goncharov.github.io/test-gh-pages/",
+  "homepage": "https://rolling-scopes-school.github.io/serezha-goncharov-JSFE2024Q4/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages --dist=dist --dest=./task-name"
+    "deploy": "npm run build && gh-pages --dist=dist --dest=./christmas-shop"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0",
     "glob": "^11.0.0",
+    "sass-embedded": "^1.80.7",
     "vite": "^5.4.10"
   }
 }

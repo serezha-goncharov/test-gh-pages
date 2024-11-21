@@ -1,0 +1,21 @@
+@use 'base/modern-normalize';
+@use 'base/typography';
+@use 'base/base';
+
+@use "layout/wrappers";
+@use "layout/header";
+@use "layout/hero";
+@use "layout/about";
+@use "layout/slider";
+@use "layout/best-gifts";
+@use "layout/call-to-action";
+@use "layout/footer";
+@use "layout/gifts";
+
+@use "components/buttons";
+@use "components/contact-action";
+@use "components/gift-item";
+@use "components/timer";
+@use "components/slider-item";
+@use "components/social";
+
