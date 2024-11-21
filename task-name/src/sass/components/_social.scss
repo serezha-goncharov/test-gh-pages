@@ -1,0 +1,41 @@
+@use "../abstract/variables" as var;
+
+
+.social {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  &[data-label="telegram"] {
+    background-image: url("/img/telegram.svg");
+  }
+
+  &[data-label="facebook"] {
+    background-image: url("/img/facebook.svg");
+  }
+
+  &[data-label="instagram"] {
+    background-image: url("/img/instagram.svg");
+  }
+
+  &[data-label="x-com"] {
+    background-image: url("/img/x-com.svg");
+  }
+
+  &-icon path {
+    transition: stroke 0.3s ease-in-out;
+  }
+
+  &:hover &-icon path {
+    stroke: var.$primary-color;
+  }
+
+  &-made-in-link {
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: var.$primary-color;
+    }
+  }
+}
+
+

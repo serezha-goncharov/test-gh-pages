@@ -1,0 +1,30 @@
+@use "../abstract/variables" as var;
+
+
+.timer__items {
+  background-color: var.$white40-color;
+  border-radius: 1.25rem;
+}
+
+.timer__item {
+  position: relative;
+
+  &-content::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 1px;
+    background-color: var.$white40-color;
+    top: 1rem;
+    right: 0;
+  }
+
+  // disable ::after for last timer item
+  &:last-child > .timer__item-content::after {
+    content: none;
+  }
+
+
+}
+
+

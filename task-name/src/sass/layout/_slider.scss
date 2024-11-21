@@ -1,0 +1,26 @@
+.slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  display: flex;
+  flex-direction: column;
+  padding-block: 3.75rem;
+  text-align: center;
+  row-gap: 14.99rem;
+  position: relative;
+}
+
+.slider__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+.slider__items {
+  display: flex;
+  column-gap: 1.31rem;
+  align-items: center;
+  position: absolute;
+  top: 9.5rem;
+}

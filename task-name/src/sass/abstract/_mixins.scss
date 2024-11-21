@@ -1,0 +1,30 @@
+@use "variables" as var;
+
+@mixin font-properties(
+  $font-size,
+  $font-family: var.$font-family-primary,
+  $font-weight: var.$font-weight-600,
+  $line-height: normal,
+  $letter-spacing: normal,
+  $text-transform: uppercase,
+) {
+  font-size: $font-size;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  text-transform: $text-transform;
+}
+
+
+$breakpoints: (
+        'small': 23.75em,
+        'medium': 48em,
+        'large': 90em
+);
+
+@mixin breakpoint($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

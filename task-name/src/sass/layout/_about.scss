@@ -1,0 +1,16 @@
+.about {
+  padding-block: 3.75rem;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  max-width: 29.5rem;
+  padding: 10rem 0 10rem 3.75rem;
+}

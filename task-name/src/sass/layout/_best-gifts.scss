@@ -1,0 +1,40 @@
+.best__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.2rem;
+  padding-block: 3.75rem;
+}
+
+.best__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.76rem;
+}
+
+.gift__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.gift__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gift__item-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.55rem;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+.gift__item-name {
+  width: 16.875rem;
+  height: 3rem;
+}

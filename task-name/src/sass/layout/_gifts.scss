@@ -1,0 +1,27 @@
+@use "../abstract/variables" as var;
+
+.gifts {
+  padding-block: 3.75rem;
+}
+
+.gifts__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.26rem;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    max-width: 26.77rem;
+
+  }
+}
+
+.gift__tabs {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.gift__tab {
+  padding: 0.75rem 1.25rem;
+}

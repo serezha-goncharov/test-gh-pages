@@ -1,0 +1,47 @@
+@use "../abstract/variables" as var;
+
+.gift__item {
+  background-color: var.$content-bg-color;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  overflow: hidden;
+
+
+  &-image {
+    width: 19.375rem;
+  }
+
+  &-info {
+    height: 7rem;
+    background-color: var.$white-color;
+    border-radius: 1.25rem;
+  }
+
+  &-tag {
+    &[data-label="For work"] {
+      color: var.$work-tag-color;
+    }
+
+    &[data-label="For health"] {
+      color: var.$health-tag-color;
+    }
+
+    &[data-label="For harmony"] {
+      color: var.$harmony-tag-color;
+    }
+  }
+
+  &-name {
+    color: var.$dark-color;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    transition: color 0.2s ease-in-out;
+  }
+
+  &:hover &-name {
+    color: var.$primary-color;
+  }
+}
+
+

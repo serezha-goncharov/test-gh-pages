@@ -1,0 +1,46 @@
+/* Colors */
+$primary-color: hsl(360, 100%, 64%);
+$primary10-color: hsl(360, 100%, 64%, .1);
+$dark-color: hsl(226, 26%, 13%);
+$white-color: hsl(0, 0%, 100%);
+$white20-color: hsl(0, 0%, 100%, .2);
+$white40-color: hsl(0, 0%, 100%, .4);
+$work-tag-color: hsl(230, 100%, 63%);
+$harmony-tag-color: hsl(303, 100%, 63%);
+$health-tag-color: hsl(148, 94%, 33%);
+$content-bg-color: hsl(208, 52%, 95%);
+$overlay-color: hsl(226, 26%, 13%, .8);
+
+/* Fonts */
+$font-family-primary: Montserrat, sans-serif;
+$font-family-secondary: Allura, sans-serif;
+
+$font-weight-400: 400;
+$font-weight-600: 600;
+
+$font-size-h1: 2rem;
+$font-size-h2: 1.5rem;
+$font-size-h3: 1rem;
+$font-size-h4: 0.75rem;
+$font-size-paragraph: 1rem;
+$font-size-action-large: 1.5rem;
+$font-size-action-small: 0.75rem;
+$font-size-caption: 1.5rem;
+$font-size-slider-text: 5rem;
+
+$line-height-h1: 150%;
+$line-height-h2: 152%;
+$line-height-h3: 152%;
+$line-height-h4: 130%;
+$line-height-paragraph: 148%;
+$line-height-action-large: 150%;
+$line-height-action-small: 130%;
+$line-height-caption: 100%;
+
+$letter-spacing-h1: .18em;
+$letter-spacing-h2: .16em;
+$letter-spacing-h3: .08em;
+$letter-spacing-h4: .05em;
+$letter-spacing-action-large: .16em;
+$letter-spacing-action-small: .05em;
+$letter-spacing-caption: .05em;

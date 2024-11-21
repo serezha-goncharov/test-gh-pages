@@ -1,0 +1,76 @@
+@use '../abstract/variables' as var;
+@use '../abstract/mixins' as mixin;
+
+.h1-header {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-h1,
+          $line-height: var.$line-height-h1,
+          $letter-spacing: var.$letter-spacing-h1
+  )
+}
+
+.h2-header {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-h2,
+          $line-height: var.$line-height-h2,
+          $letter-spacing: var.$letter-spacing-h2
+  )
+}
+
+.h3-header {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-h3,
+          $line-height: var.$line-height-h3,
+          $letter-spacing: var.$letter-spacing-h3
+  )
+}
+
+.h4-header {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-h4,
+          $line-height: var.$line-height-h4,
+          $letter-spacing: var.$letter-spacing-h4
+  )
+}
+
+.paragraph {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-paragraph,
+          $line-height: var.$line-height-paragraph,
+          $font-weight: var.$font-weight-400,
+          $text-transform: none,
+  )
+}
+
+.action-large {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-action-large,
+          $line-height: var.$line-height-action-large,
+          $letter-spacing: var.$letter-spacing-action-large,
+  )
+}
+
+.action-small {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-action-small,
+          $line-height: var.$line-height-action-small,
+          $letter-spacing: var.$letter-spacing-action-small,
+  )
+}
+
+.caption {
+  @include mixin.font-properties(
+          $font-family: var.$font-family-secondary,
+          $font-size: var.$font-size-caption,
+          $line-height: var.$line-height-caption,
+          $letter-spacing: var.$letter-spacing-caption,
+          $font-weight: var.$font-weight-400,
+          $text-transform: none,
+  )
+}
+
+.slider__item-text {
+  @include mixin.font-properties(
+          $font-size: var.$font-size-slider-text,
+  )
+}

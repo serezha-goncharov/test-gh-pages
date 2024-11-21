@@ -1,0 +1,39 @@
+.call-to-action__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  text-align: center;
+  max-width: 26.77rem;
+  padding-block: 11.25rem;
+  margin-inline: auto;
+  align-items: center;
+
+}
+
+.call-to-action__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & h2 {
+    margin-bottom: 1.15625rem;
+  }
+
+  & a {
+    margin-bottom: 1.25rem;
+
+  }
+}
+
+.timer__items {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+}
+
+
+.timer__item-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 5rem;
+}

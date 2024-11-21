@@ -1,0 +1,12 @@
+@use "../abstract/variables" as var;
+
+
+.contact__item {
+  background-color: var.$content-bg-color;
+  border-radius: 1.25rem;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: var.$primary-color
+  }
+}

@@ -1,0 +1,98 @@
+@use "../abstract/variables" as var;
+
+/* Navigation button */
+.nav__link {
+  border-radius: 0.75rem;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+
+  &--active {
+    pointer-events: none;
+    background-color: var.$primary10-color;
+    color: var.$primary-color;
+  }
+
+  &:hover {
+    background-color: var.$primary10-color;
+    color: var.$primary-color;
+  }
+}
+
+/* To Gifts page button */
+.gifts-button {
+  padding: 1.26rem 2rem;
+  background-color: var.$dark-color;
+  color: var.$white-color;
+  border-radius: 1.25rem;
+
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    background-color: var.$white-color;
+    color: var.$dark-color;
+  }
+}
+
+/* Slider buttons */
+.slider__buttons {
+  display: flex;
+  column-gap: 1.25rem;
+  justify-content: flex-end;
+}
+
+.slider__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+  border-radius: 1.26rem;
+  overflow: hidden;
+
+
+  &--inactive {
+    pointer-events: none;
+    border: 1px solid var.$white40-color;
+
+    & * {
+      color: var.$white40-color;
+    }
+  }
+
+  &--active {
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    border: 1px solid var.$white-color;
+
+    &:hover {
+      background-color: var.$white-color;
+      color: var.$primary-color;
+    }
+  }
+
+
+}
+
+/* Gift Page tab buttons */
+.gift__tab {
+  cursor: pointer;
+  border-radius: 0.75rem;
+  color: var.$white-color;
+  transition: background-color 0.3s ease-in-out;
+
+
+  &--active {
+    pointer-events: none;
+    background-color: var.$white20-color;
+  }
+
+  &:hover {
+    background-color: var.$white20-color;
+  }
+}
+

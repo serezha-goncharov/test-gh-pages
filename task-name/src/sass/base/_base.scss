@@ -1,0 +1,88 @@
+@use "../abstract/variables" as var;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  user-select: none;
+}
+
+header, footer {
+  color: var.$dark-color;
+}
+
+a {
+  color: var.$dark-color;
+  text-decoration: none;
+}
+
+main {
+  background-color: var.$primary-color;
+  color: var.$white-color;
+  border-radius: 1.25rem;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("/img/bg-snow.png"), url("/img/bg-ball.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+}
+
+/* About Section */
+.about {
+  background-image: url("/img/bg-snow.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__content {
+  color: var.$dark-color;
+  background-color: var.$white-color;
+  border-radius: 1.25rem;
+}
+
+.caption--colored {
+  color: var.$primary-color;
+}
+
+.about__image {
+  border-radius: 1.25rem;
+}
+
+/* Slider Section */
+.slider {
+  background-image: url("/img/bg-snow.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Best Gifts Section */
+.best {
+  background-image: url("/img/bg-snow.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Call To Action Section */
+.call-to-action {
+  background-image: url("/img/bg-snow.png"), url("/img/bg-forest.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Gifts Page */
+.gifts {
+  background-image: url("/img/bg-garland.png");
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
